@@ -6,8 +6,7 @@ btnlogin.addEventListener("click", function (event) {
   event.preventDefault;
   let email = emailinput.value;
   let password = passwordinput.value;
-
-  console.log(email, password);
-
-  window.location.href ="./home.html";
+  console.log(email);
+  console.log(password);
+  window.location.href = "./home.html";
 });
